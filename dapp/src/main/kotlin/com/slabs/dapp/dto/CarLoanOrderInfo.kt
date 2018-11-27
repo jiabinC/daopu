@@ -1,8 +1,8 @@
 package com.slabs.api.entity
-/**
- *
- * 车贷订单信息
- */
+
+import net.corda.core.serialization.CordaSerializable
+
+@CordaSerializable
 data class CarLoanOrderInfo (
     var id:String?=null
 )

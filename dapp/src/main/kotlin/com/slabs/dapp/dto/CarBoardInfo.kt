@@ -1,10 +1,8 @@
 package com.slabs.api.entity
 
+import net.corda.core.serialization.CordaSerializable
 
-/**
- *
- * 车辆上牌信息
- */
+@CordaSerializable
 data class CarBoardInfo (
         var order_id:String?=null,
         var registration_area:String?=null,

@@ -1,10 +1,8 @@
 package com.slabs.api.entity
 
+import net.corda.core.serialization.CordaSerializable
 
-/**
- *
- * 新车提车&二手车过户
- */
+@CordaSerializable
 data class VehicleDetails (
         var order_id:String?=null,
         var pick_car_time:String?=null,

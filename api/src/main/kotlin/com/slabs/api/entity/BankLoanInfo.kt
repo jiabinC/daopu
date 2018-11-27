@@ -1,5 +1,9 @@
 package com.slabs.api.entity
 
+/**
+ *
+ * 银行放款信息
+ */
 data class BankLoanInfo (
     var order_id:String?=null,
     var loan_bank:String?=null,

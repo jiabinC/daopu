@@ -1,10 +1,9 @@
 package com.slabs.api.entity
 
+import net.corda.core.serialization.CordaSerializable
 
-/**
- *
- * 抵押登记
- */
+
+@CordaSerializable
 data class MortgageRegistration (
         var order_id :String?=null,
         var registered_orig_rec_date:String?=null,
